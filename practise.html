@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="doc.css" type="text/css">
+    <title>Document</title>
+  
+</head>
+<body>
+    <hr>
+    <!-- 1 -->
+ <label><input type="checkbox" id="one" onchange="fun1()">
+it is going to work
+</input></label> 
+
+<hr>
+
+    <!-- 2 -->
+<input type="radio" name="r1" value="5">0
+<input type="radio" name="r1" value="53">1
+<input type="radio" name="r1" value="535">2    
+<button onclick="fun1()">checking elements</button>
+
+
+<hr>
+
+
+    <!-- 3 -->
+<select name="" id="mySelect" onchange="fun1()">
+    
+    <option value="">Apple</option>
+    <option value="">Orange</option>
+    <option value="">Banana</option>
+    <option value="">melon</option>
+</select>
+
+<hr>
+
+
+    <!-- 4 -->
+     <input type="range" min="0" max="100" step="2" oninput="fun1()" id="r1"> 
+    <h1 id="one">How are you?</h1>
+
+    <input type="range" min="0" max="200" step="4" oninput="fun2()" id="r2"> 
+    <input type="text" id="i1"> -->
+
+
+
+    <input type="range" min="0" max="200" step="4" oninput="fun3()" id="r3">
+    <div id="test" style="height:20px; width: 20px; background:yellow; "></div>
+
+    <hr>
+
+<div class="block1">
+    <p>Top LEFT corner 
+        <input type="range" id="rtl" mim="0" max="100" value="0" oninput="fun1()">
+        <input type="text" id="ttl" value="0">
+    </p>
+
+    <p>Top RIGHT corner 
+        <input type="range" id="rtr" mim="0" max="100" value="0" oninput="fun1()">
+        <input type="text" id="ttr" value="0">
+    </p>
+
+    <p>Bottom RIGHT corner 
+        <input type="range" id="rbr" mim="0" max="100" value="0" oninput="fun1()">
+        <input type="text" id="tbr" value="0">
+    </p>
+
+    <p>Bottom LEFT corner 
+        <input type="range" id="rbl" mim="0" max="100" value="0" oninput="fun1()">
+        <input type="text" id="tbl" value="0">
+    </p>
+</div>
+<div id="block"></div> 
+
+<hr>
+
+
+
+<!-- PRACTIKA 4 -->
+
+
+<div id="nav">
+
+    <div class="menu-item">
+        Menu 1
+        <div class="submenu">
+
+        </div>
+    </div>
+
+
+    <div class="menu-item">
+        Menu 2
+        <div class="submenu">
+            Submenu
+        </div>
+    </div>
+
+
+    <div class="menu-item">
+        Menu 3
+        <div class="submenu">
+
+        </div>
+    </div>
+</div> 
+
+
+<script src="java.js"></script>
+</body>
+</html>
