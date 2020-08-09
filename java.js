@@ -163,3 +163,21 @@ window.onclick = function (event){
      modal.style.displays ="none"
  } 
 }
+
+// #practise 7 moving animations 
+
+function myMove() {
+    let elem = document.getElementById("myAnimation");
+    let p = 0;
+    let id = setInterval(frame, 10);
+    function frame (){
+        if (p == 200) {
+            clearInterval(id)
+    
+        } else {
+            p++;
+            elem.style.top= p + "px";
+            elem.style.left= p + "px";
+        }
+    }
+}
